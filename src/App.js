@@ -18,6 +18,9 @@ import React from "react";
 
 import ClippedDrawer from "./components/ClippedDrawer";
 
+// hacer console.log de la variables de entorno
+console.log(`variables de entorno?${process.env.REACT_APP_ORDERS_URL}`)
+
 function App() {
   return <ClippedDrawer />;
 }
